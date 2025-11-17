@@ -4,7 +4,7 @@
 
     <groupId>com.ravey.common</groupId>
     <artifactId>common-dependencies</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -471,7 +471,7 @@
         <!-- 项目主页 -->
         <url>https://github.com/RaveyShare/common-dependencies</url>
         <!-- 当前分支/Tag，开发时一般填 HEAD -->
-        <tag>HEAD</tag>
+        <tag>v1.0.1</tag>
     </scm>
 
     <build>
