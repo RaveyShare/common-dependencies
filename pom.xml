@@ -31,6 +31,7 @@
         <hutool.version>5.8.28</hutool.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
         <okhttp.version>4.12.0</okhttp.version>
+        <aliyun-sdk-oss.version>3.17.4</aliyun-sdk-oss.version>
     </properties>
 
     <!-- ⭐ 配置从 GitHub Packages 拉取依赖（通配符方式） -->
@@ -171,6 +172,12 @@
                 <groupId>com.squareup.okhttp3</groupId>
                 <artifactId>okhttp</artifactId>
                 <version>${okhttp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${aliyun-sdk-oss.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
